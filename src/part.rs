@@ -95,7 +95,7 @@ pub const PART_REDRAGON_ANIVIA_K614: Part = Part {
     ..PART_BASE_SH68F90
 };
 
-pub const PART_REDRAGON_K630: Part = Part {
+pub const PART_REDRAGON_K631: Part = Part {
     vendor_id: 0x258a,
     product_id: 0x0049,
     isp_index: 1,
@@ -209,7 +209,7 @@ pub static PARTS: Map<&'static str, Part> = phf_map! {
     "redragon-k530-draconic-pro" => PART_REDRAGON_K530_DRACONIC_PRO,
     "redragon-k614-anivia" => PART_REDRAGON_ANIVIA_K614,
     "redragon-k617-fizz" => PART_REDRAGON_FIZZ_K617,
-    "redragon-k630" => PART_REDRAGON_K630,
+    "redragon-k631" => PART_REDRAGON_K631,
     "redragon-k641-shaco-pro" => PART_REDRAGON_K641_SHACO_PRO,
     "royalkludge-rk100" => PART_ROYALKLUDGE_RK100,
     "royalkludge-rk84-iso-return" => PART_ROYALKLUDGE_RK84_ISO_RETURN,
